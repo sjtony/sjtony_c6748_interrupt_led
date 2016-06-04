@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configurations XML_version="1.2" id="configurations_0">
+    <configuration XML_version="1.2" id="configuration_0">
+        <instance XML_version="1.2" desc="Texas Instruments XDS100v2 USB Emulator" href="connections/TIXDS100v2_Connection.xml" id="Texas Instruments XDS100v2 USB Emulator" xml="TIXDS100v2_Connection.xml" xmlpath="connections"/>
+        <connection XML_version="1.2" id="Texas Instruments XDS100v2 USB Emulator">
+            <instance XML_version="1.2" href="drivers/tixds100v2icepick_c.xml" id="drivers" xml="tixds100v2icepick_c.xml" xmlpath="drivers"/>
+            <instance XML_version="1.2" href="drivers/tixds100v2c674x.xml" id="drivers" xml="tixds100v2c674x.xml" xmlpath="drivers"/>
+            <platform XML_version="1.2" id="platform_0">
+                <instance XML_version="1.2" desc="LCDKC6748" href="boards/lcdkc6748.xml" id="LCDKC6748" xml="lcdkc6748.xml" xmlpath="boards"/>
+            <board XML_version="1.2" description="Texas Instruments C6748 Low Cost Development Kit" id="LCDKC6748">
+                    <device HW_revision="1" XML_version="1.2" desc="C6748_0" description="C6748 SoC" id="C6748_0" partnum="C6748" simulation="no"/>
+                </board>
+            </platform>
+        </connection>
+    </configuration>
+</configurations>
